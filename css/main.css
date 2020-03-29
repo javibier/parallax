@@ -1,14 +1,17 @@
-* {
-  box-sizing: border-box;
-}
+body, html {
+   height: 100%;
+ }
+ 
+.parallax {
+  /* The image used */
+    background-image: url("../img/parallax.jpg");
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+  /* Full height */
+    height: 100%; 
 
-[class*="col-"] {
-  float: left;
-  padding: 15px;
-}
+  /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
