@@ -11,7 +11,15 @@ body, html {
 
   /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
  }
+
+header {
+    background: beige;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+}
